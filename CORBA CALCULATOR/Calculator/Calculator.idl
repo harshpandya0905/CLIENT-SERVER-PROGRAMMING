@@ -1,0 +1,13 @@
+// It contains all the parameters,exceptions and defines the methods
+ module HarshCalcy
+{
+interface Calculator
+{
+
+// It defines the calculate method  and passes the value for ADD/SUB/MUL/DIV
+long calculate(in long operator,in long num1,in long num2); 
+
+// It defines shutdown method which closes the server 
+oneway void shutdown();
+};
+};
